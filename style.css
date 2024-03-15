@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.hero-section{
+    height: 100vh;
+    color: #fff;
+    
+}
+.hero-section .nav{
+    height: 10%;
+    background-color:#270082;
+    display: flex;
+    align-items: center;
+    padding: 0 4vw;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.15s ease-in-out;
+}
+.nav a:hover{
+    background: linear-gradient(2.25deg, rgba(0, 0, 0, 0.5) 0.68%, rgba(0, 0, 0, 0) 82.95%);
+}
+.logo h2{
+    font-size:1.5em;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: red;
+}
+.Menu-icon i{
+    display: none;
+}
+.flexbox-align-right{
+    margin-left: auto;
+}
+/* .............herosection.......... */
+.hero-img{
+    height: 90%;
+    background-image: url(./hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 70%;
+   margin: 0 auto;
+   background: linear-gradient(2.25deg, rgba(0, 0, 0, 0.5) 0.68%, rgba(0, 0, 0, 0) 82.95%);
+}
+.hero-text h2{
+    font-size: 4vmax
+} 
+.hero-text #para-2{
+    font-size: 0.95rem;
+    max-width: 92%;
+}
+/* ............Middle section..............  */
+.middle-section{
+    height: 100vh;
+    background-color: #281154;
+    display: flex;
+    justify-content: center;
+
+
+}
+.middel-content{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ /* text-align: center; */
+}
+.middel-content .message-box{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+.message-box #main-msg{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.message-box #para-2{
+    max-width: 85%;
+    margin: auto;
+    font-size: 0.99em;
+}
+.trial-btn{
+    background-color:  #DC0000;
+    max-width: fit-content;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 40px 0px 20px;
+    padding: 18px 14px;
+    border-radius: 4px;
+}
+#bottom-para{
+ font-size: 0.7rem;
+ margin-bottom: 30px;
+}
+.ipad-img{
+    max-height: 70%;
+}
+.ipad-img img{
+    max-width: 100%;
+}
+/* .........third-section............ */
+.third-section{
+    height: 150vh;
+    background-color: #dadada;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35vh;
+}
+.third-section .third-content{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #9271cf; */
+    gap: 50px;
+}
+.readmore-btn,.reedem-btn{
+    background-color:  #37008E;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+
+}
+.third-content #third-title{
+    font-size: 1.4rem;
+}
+#third-para{
+    max-width: 85%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.third-content #third-title,#third-para{
+    color: black;
+}
+.ipad-img img{
+    height: 100%;
+}
+.mac-book{   
+  max-width:50%;
+}
+.mac-book img{
+    margin-top: 50px;
+    width: 100%;
+}
+/* ........fourthsection..... */
+.fourth-section{
+    height: 80vh;
+    background-image: url(./video.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+}
+.fourth-content{
+    max-width: 80%;
+    margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+#fourth-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.fifth-section{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+}
+.gift-card{
+    max-width: 40%;
+    max-height: 90%;
+    margin-left: 5%;
+}
+.gift-card img{
+    width: 100%;
+}
+
+.fifth-content{
+    max-width: 50%;
+    max-height: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+#fifth-title, #fifth-para,#fifth-question{
+    color: black;
+    font-weight: 600;
+}
+#fifth-para{
+    font-size: 1.05rem;
+    max-width: 90%;
+}
+#fifth-question{
+    font-size: 1rem;
+}
+.reedem-btn{
+  max-width: fit-content;
+}
+.divder{
+    border: 1px solid #afafaf;
+}
+.last-section{
+    height: 40vh;
+    background-color: #1B0058;
+    display: flex;
+}
+.last-section .last-container{
+    max-width: 70%;
+    display: flex;
+    margin:   auto;
+    gap: 80px;
+}
+.divder{
+ margin-bottom: 15px;
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: #270082;
+    text-align: center;
+    padding: 20px 0;
+   
+    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:756px){
+    .links {
+        display: none;
+    }
+    .Menu-icon{
+        margin-left: auto;
+    }
+    .Menu-icon i{
+        display: flex;
+        
+    }
+    .hero-text #para-2{
+        font-size: 0.8rem;
+        max-width: 100%;
+    }
+    #third-para{
+        max-width: 100%;
+       text-align: left;
+        font-size: 0.9rem;
+    }
+    .message-box #para-2{
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+        font-size: 0.9em;
+    }
+    .trial-btn{
+        font-size: 0.9em;
+        font-weight: 600;
+        padding: 12px 12px;
+    }
+    .ipad-img{
+        max-height: 35%;
+    
+    }
+    .third-section{
+        height: 90vh;
+        padding-top: 60px;
+        justify-content: flex-start;
+    }
+    .mac-book{   
+        max-width:80%;
+      }
+      #fourth-title{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .fifth-section{
+        height: 60vh;
+        display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .gift-card{
+    width:300px;
+        height: 50%;
+       
+    }
+    .fifth-content{
+        max-width: 100%;
+        max-height:80%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+      }
+      #fifth-para{
+        font-size: 0.95rem;
+    }
+    #fifth-question{
+        font-size: 0.95rem;
+        max-width: 95%;
+    }
+    .reedem-btn{
+       margin-bottom: 10px;
+    }
+    .last-section .last-container{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin:  0;
+        gap: 30px;
+    }
+    .last-section{
+        height: fit-content;
+        background-color: #1B0058;
+        display: flex;
+    }
+
+}
