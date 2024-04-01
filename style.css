@@ -44,7 +44,7 @@
 /* .............herosection.......... */
 .hero-img{
     height: 90%;
-    background-image: url(./hero-img.jpg);
+    background-image: url(./images/hero-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,14 +134,15 @@
     align-items: center;
     padding-top: 35vh;
 }
-.third-section .third-content{
+.third-section .third-content {
     display: flex;
-    width: 90%;
+    width: 108%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background-color: #9271cf; */
-    gap: 50px;
+    gap: 18px;
+    margin-top: 147px;
 }
 .readmore-btn,.reedem-btn{
     background-color:  #37008E;
@@ -169,13 +170,13 @@
   max-width:50%;
 }
 .mac-book img{
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
 }
 /* ........fourthsection..... */
 .fourth-section{
     height: 80vh;
-    background-image: url(./video.png);
+    background-image: url(./images/video.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -210,15 +211,15 @@
     width: 100%;
 }
 
-.fifth-content{
-    max-width: 50%;
-    max-height: 90%;
+.fifth-content {
+    max-width: 57%;
+    max-height: 100%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-  }
+    gap: 9px;
+}
 #fifth-title, #fifth-para,#fifth-question{
     color: black;
     font-weight: 600;
@@ -241,11 +242,11 @@
     background-color: #1B0058;
     display: flex;
 }
-.last-section .last-container{
-    max-width: 70%;
+.last-section .last-container {
+    max-width: 90%;
     display: flex;
-    margin:   auto;
-    gap: 80px;
+    margin: auto;
+    gap: 33px;
 }
 .divder{
  margin-bottom: 15px;
@@ -262,6 +263,9 @@
 }
 
 @media (max-width:756px){
+    *{
+        text-align: justify;
+    }
     .links {
         display: none;
     }
@@ -270,17 +274,26 @@
     }
     .Menu-icon i{
         display: flex;
+        margin-right: 19px
         
     }
     .hero-text #para-2{
         font-size: 0.8rem;
         max-width: 100%;
     }
-    #third-para{
-        max-width: 100%;
-       text-align: left;
-        font-size: 0.9rem;
+    .third-section .third-content {
+        
+        width: 81%;
+        margin-top: 25px;
     }
+    
+
+#third-para {
+    max-width: 111%;
+    text-align: justify;
+    font-size: .9rem;
+    font-weight: 300;
+}
     .message-box #para-2{
         max-width: 100%;
         margin: 0;
@@ -301,19 +314,22 @@
         padding-top: 60px;
         justify-content: flex-start;
     }
-    .mac-book{   
-        max-width:80%;
-      }
+    .mac-book img {
+        margin-top: 22px;
+        width: 100%;
+        
+    }
       #fourth-title{
         font-size: 1.2rem;
         font-weight: 600;
     }
     .fifth-section{
-        height: 60vh;
+        height: 90vh;
         display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
+      padding: 2rem;
     }
     .gift-card{
     width:300px;
@@ -350,6 +366,10 @@
         height: fit-content;
         background-color: #1B0058;
         display: flex;
+        padding: 2rem;
+    }
+    .footer{
+        padding: 5px 100px;
     }
 
 }
